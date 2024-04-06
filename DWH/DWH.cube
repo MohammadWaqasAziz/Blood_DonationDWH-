@@ -1,0 +1,992 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="db18e1f9-6631-4214-842a-af40ff82ea0c" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DWH</ID>
+  <Name>DWH</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="28" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-13154" scrolltop="-2480" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="55" x="34264" y="13864" backcolor="2566178" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Staff" left="3333" top="9158" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000a50a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Staff" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Money_fact" left="25109" top="12169" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="4022" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b60f0000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Money_fact" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Status" left="-1393" top="9260" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000057070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Status" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="City" left="25273" top="8946" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000057070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_City" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Donor" left="7602" top="12715" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="3413" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000550d0000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Donor" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Donation_fact" left="-2555" top="3817" logicalid="6" controlid="6" masterid="0" hint1="0" hint2="0" width="3069" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000fd0b00009b0f0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Donation_fact" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Time" left="10392" top="2163" logicalid="7" controlid="7" masterid="0" hint1="0" hint2="0" width="3995" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00009b0f0000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="Time" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Blood" left="10007" top="18927" logicalid="8" controlid="8" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000057070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Blood" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Recipient" left="17291" top="16728" logicalid="9" controlid="9" masterid="0" hint1="0" hint2="0" width="3440" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000700d00004d0c0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Recipient" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Hospital" left="18904" top="7358" logicalid="10" controlid="10" masterid="0" hint1="0" hint2="0" width="3334" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000060d0000a50a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Hospital" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Transfusion_fact" left="24305" top="2857" logicalid="11" controlid="11" masterid="0" hint1="0" hint2="0" width="3387" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00003b0d0000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Transfusion_fact" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="214" top="5514" logicalid="12" controlid="12" masterid="0" hint1="0" hint2="0" width="4469" height="4144" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16316658" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Donation_fact-Staff]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="6" sourceattachpoint="2" destattachpoint="17" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="4283" y="9158" />
+              <point x="4283" y="5814" />
+              <point x="514" y="5814" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="6033" top="10121" logicalid="13" controlid="13" masterid="0" hint1="0" hint2="0" width="19376" height="3034" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16316658" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Money_fact-Staff]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="2" sourceattachpoint="15" destattachpoint="16" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6333" y="10520" />
+              <point x="15515" y="10520" />
+              <point x="15515" y="12855" />
+              <point x="25109" y="12855" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="6033" top="5993" logicalid="14" controlid="14" masterid="0" hint1="0" hint2="0" width="18572" height="3827" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16316658" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Transfusion_fact-Staff]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="11" sourceattachpoint="11" destattachpoint="22" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6333" y="9420" />
+              <point x="12338" y="9420" />
+              <point x="12338" y="6293" />
+              <point x="24305" y="6293" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="10715" top="14102" logicalid="15" controlid="15" masterid="0" hint1="0" hint2="0" width="14694" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16316658" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Money_fact-Donor]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="2" sourceattachpoint="17" destattachpoint="22" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="11015" y="14501" />
+              <point x="18422" y="14501" />
+              <point x="18422" y="14505" />
+              <point x="25109" y="14505" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="21938" top="9421" logicalid="16" controlid="16" masterid="0" hint1="0" hint2="0" width="3471" height="3184" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16316658" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Money_fact-Hospital]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="10" destid="2" sourceattachpoint="19" destattachpoint="14" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="22238" y="9820" />
+              <point x="23673" y="9820" />
+              <point x="23673" y="12305" />
+              <point x="25109" y="12305" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="11990" top="5236" logicalid="17" controlid="17" masterid="0" hint1="0" hint2="0" width="13419" height="10669" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16316658" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Money_fact-Time]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="7" destid="2" sourceattachpoint="7" destattachpoint="26" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="12389" y="5735" />
+              <point x="12389" y="15605" />
+              <point x="25109" y="15605" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="-1392" top="7512" logicalid="18" controlid="18" masterid="0" hint1="0" hint2="0" width="799" height="2248" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16316658" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Donation_fact-Status]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="6" sourceattachpoint="0" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="-993" y="9260" />
+              <point x="-993" y="8536" />
+              <point x="-1021" y="8536" />
+              <point x="-1021" y="7812" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="21938" top="8936" logicalid="19" controlid="19" masterid="0" hint1="0" hint2="0" width="3635" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16316658" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Hospital-City]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="10" sourceattachpoint="10" destattachpoint="17" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="25273" y="9335" />
+              <point x="23756" y="9335" />
+              <point x="23756" y="9270" />
+              <point x="22238" y="9270" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="10008" top="15987" logicalid="20" controlid="20" masterid="0" hint1="0" hint2="0" width="799" height="3440" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16316658" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Donor-Blood]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="8" destid="5" sourceattachpoint="0" destattachpoint="9" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="10407" y="18927" />
+              <point x="10407" y="17607" />
+              <point x="10408" y="17607" />
+              <point x="10408" y="16287" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="214" top="6064" logicalid="21" controlid="21" masterid="0" hint1="0" hint2="0" width="7688" height="8837" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16316658" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Donation_fact-Donor]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="6" sourceattachpoint="16" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7602" y="14501" />
+              <point x="6989" y="14501" />
+              <point x="6989" y="6364" />
+              <point x="514" y="6364" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="214" top="6064" logicalid="22" controlid="22" masterid="0" hint1="0" hint2="0" width="18990" height="3056" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16316658" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Donation_fact-Hospital]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="10" destid="6" sourceattachpoint="14" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="18904" y="8720" />
+              <point x="13237" y="8720" />
+              <point x="13237" y="6364" />
+              <point x="514" y="6364" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="214" top="1900" logicalid="23" controlid="23" masterid="0" hint1="0" hint2="0" width="10478" height="2564" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16316658" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Donation_fact-Time]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="7" destid="6" sourceattachpoint="14" destattachpoint="11" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="10392" y="2299" />
+              <point x="5259" y="2299" />
+              <point x="5259" y="4164" />
+              <point x="514" y="4164" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="14087" top="3550" logicalid="24" controlid="24" masterid="0" hint1="0" hint2="0" width="10518" height="3043" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16316658" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Transfusion_fact-Time]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="7" destid="11" sourceattachpoint="21" destattachpoint="22" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="14387" y="3949" />
+              <point x="16171" y="3949" />
+              <point x="16171" y="6293" />
+              <point x="24305" y="6293" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="12707" top="18917" logicalid="25" controlid="25" masterid="0" hint1="0" hint2="0" width="4884" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16316658" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Recipient-Blood]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="8" destid="9" sourceattachpoint="11" destattachpoint="18" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="13007" y="19316" />
+              <point x="16072" y="19316" />
+              <point x="16072" y="19402" />
+              <point x="17291" y="19402" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="18612" top="6129" logicalid="26" controlid="26" masterid="0" hint1="0" hint2="0" width="6586" height="11099" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16316658" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Transfusion_fact-Recipient]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="9" destid="11" sourceattachpoint="4" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="19011" y="16728" />
+              <point x="19011" y="12883" />
+              <point x="24898" y="12883" />
+              <point x="24898" y="6429" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="21938" top="5993" logicalid="27" controlid="27" masterid="0" hint1="0" hint2="0" width="2667" height="2027" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16316658" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Transfusion_fact-Hospital]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="10" destid="11" sourceattachpoint="11" destattachpoint="22" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="22238" y="7620" />
+              <point x="23271" y="7620" />
+              <point x="23271" y="6293" />
+              <point x="24305" y="6293" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-13154</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-2480</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-2555</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>2163</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>55</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="380953ec-c6fe-4c41-9038-38c5f24f959c">
+      <ID>Donor</ID>
+      <Name>Donor</Name>
+      <DimensionID>Donor</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="fce81fa9-fb8e-4923-bae0-c93edb55cdd7">
+          <AttributeID>Donor Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d9449418-9375-43a1-a9a8-bd50fc8ff594">
+          <AttributeID>Donor First Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0400b083-67bb-4e3b-ab1a-4cb10c78c57c">
+          <AttributeID>Donor Last Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="43b582a5-b7c1-4795-9566-3c11e1e620fc">
+          <AttributeID>Donor Age</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="890b5dc5-84c8-4051-afb7-5e5374e30ec2">
+          <AttributeID>Donor Gender</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="59675774-ac21-4689-ae43-d40e62985278">
+          <AttributeID>Blood Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ee699670-81d5-4b5d-8d3b-fdff0b0c7fbf">
+          <AttributeID>Blood Type</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="fac03bd1-14e1-4b33-9bf1-f0a2a5dad16f">
+      <ID>Staff</ID>
+      <Name>Staff</Name>
+      <DimensionID>Staff</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="d64bbcba-bd48-41f4-912f-99f527fa245c">
+          <AttributeID>Staff Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5721439c-6d28-45a7-871d-45514fb5baf5">
+          <AttributeID>Staff Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6d474194-5619-49fa-88c2-97b798033e80">
+          <AttributeID>Staff Gender</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="77137b02-68df-4112-a4a5-72f6be92b7e8">
+          <AttributeID>Staff Role</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="50103462-aefa-4ed8-b8d6-ea7b8b5fc74b">
+      <ID>Hospital</ID>
+      <Name>Hospital</Name>
+      <DimensionID>Hospital</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="1ed76582-5b5f-44f5-9859-83ca0e6b965e">
+          <AttributeID>Hospital Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b420ef01-949c-4a82-8330-cd9fd01fed96">
+          <AttributeID>Hospital Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="347d5290-e679-4f73-bb1a-61a80de3d168">
+          <AttributeID>Hospital Contact</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="304bb65d-2cbe-44b3-bc4e-bf59d7113045">
+          <AttributeID>City Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6311ca06-fd07-469d-b624-ea8f6d21b1f4">
+          <AttributeID>City Name</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="8bc7631b-cc7b-4cae-b236-8e109000f82c">
+      <ID>Status</ID>
+      <Name>Status</Name>
+      <DimensionID>Status</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="500f8c51-a521-4681-8e00-eaa1034eb3ba">
+          <AttributeID>Status Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c4c53be3-c2a6-4d26-887c-5d977c20f181">
+          <AttributeID>Status Value</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="2358bdfa-d1f8-44d0-86af-642d4b184d3f">
+      <ID>Recipient</ID>
+      <Name>Recipient</Name>
+      <DimensionID>Recipient</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="1654b42b-603e-4ade-90a9-1f8287670af7">
+          <AttributeID>Recipient Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="04b60830-07f0-4b49-978c-9fa384621474">
+          <AttributeID>Recipient Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5552998b-648f-4145-a23c-423e7b4ef5a0">
+          <AttributeID>Recipient Age</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="23995bda-fd2d-4db2-a51b-ade725beba9d">
+          <AttributeID>Recipient Gender</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9874d387-5939-437e-b071-75be98c06741">
+          <AttributeID>Blood Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="afe246be-9ce1-49c1-aa1c-e868af021bed">
+          <AttributeID>Blood Type</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="dce76c07-8d5e-4f08-b1e0-7fe52a244ec3">
+      <ID>Time</ID>
+      <Name>Time</Name>
+      <DimensionID>Time</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="db7398a0-3604-466a-b594-9c740f85a43b">
+          <AttributeID>Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8fbca35d-3a0c-434b-8341-5bab268b24ae">
+          <AttributeID>Week</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c024ca6e-7009-413f-9d70-2bd88d4efc3d">
+          <AttributeID>Day Of Week</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="7ce9c6e4-9f09-452b-b3f1-49efbb2c5ba8">
+          <HierarchyID>Week -  Date</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="53a2c168-a527-4457-99e8-744be8ee4c3c">
+      <ID>Donation Fact</ID>
+      <Name>Donation Fact</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="ffbd6136-290e-4f64-b301-6834f1c560b5">
+          <ID>Quantity Mm</ID>
+          <Name>Quantity Mm</Name>
+          <Source dwd:design-time-name="f434139d-4272-427e-8f91-df38f4fed8cc">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="93cfa55f-ac0a-4295-896a-3d0e9690866e">
+              <TableID>dbo_Donation_fact</TableID>
+              <ColumnID>Quantity_mm</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="7ece8f3e-1167-4da8-9ba9-f5c32d4e0a5c">
+          <ID>Donation Fact Count</ID>
+          <Name>Donation Fact Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="270fcfb8-a59c-4f5f-976f-5a438431c927">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="43c8dbe3-89ad-4fe3-8f16-306522467cd5">
+              <TableID>dbo_Donation_fact</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="14f86a75-2362-4167-9a25-5e160343baa5">
+          <CubeDimensionID>Donor</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="7c40b79a-e0c7-4cee-b577-d42743ffb66f">
+              <AttributeID>Donor Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="06df0df6-6286-4279-a28c-2b4d8dca913c">
+                  <DataType>WChar</DataType>
+                  <DataSize>5</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8dffffb1-aeae-4c8f-a2e4-5d7ee8870eb3">
+                    <TableID>dbo_Donation_fact</TableID>
+                    <ColumnID>Donor_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="26c04fed-4b9f-4d12-8e0b-ed62cf4f92a5">
+          <CubeDimensionID>Staff</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="2d1e179e-659d-465d-ba6c-f48cec0bb02e">
+              <AttributeID>Staff Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="9d470a2c-5236-4a05-b5d0-7ef4238acc02">
+                  <DataType>WChar</DataType>
+                  <DataSize>5</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2479da67-b8f3-47b8-8f56-f66ddd7d7155">
+                    <TableID>dbo_Donation_fact</TableID>
+                    <ColumnID>Staff_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c54fa2e3-4b9a-4d5b-b50e-2c0d5f6bd5e8">
+          <CubeDimensionID>Hospital</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="e5ea6d6d-9488-4807-91a9-6d2128205e7b">
+              <AttributeID>Hospital Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="bb28000c-6abc-40f4-81fa-ca6d600c35ab">
+                  <DataType>WChar</DataType>
+                  <DataSize>5</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ef7d9429-c4b0-41fb-aab4-99d2e12979a5">
+                    <TableID>dbo_Donation_fact</TableID>
+                    <ColumnID>Hospital_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="82fe4801-14c9-4918-a151-09dc082e5a56">
+          <CubeDimensionID>Status</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="5a456222-80d9-44f6-8316-b7dfc34b8d87">
+              <AttributeID>Status Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="bbcc98ec-09d1-47f5-8e83-15a29805aa6a">
+                  <DataType>WChar</DataType>
+                  <DataSize>5</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5724ee5e-bd65-44f1-8a05-46efb8257933">
+                    <TableID>dbo_Donation_fact</TableID>
+                    <ColumnID>Status_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="8e75926b-6134-42a2-a71c-37ca7ba52187">
+          <CubeDimensionID>Time</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="73bc630e-2f3a-4a70-b2ba-fa12b27ceef8">
+              <AttributeID>Date</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="fcf8b6b2-a242-4b99-912f-8f4f1ce43a9c">
+                  <DataType>Date</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="fcfc2af1-ef39-4d37-8561-ee069e98660c">
+                    <TableID>dbo_Donation_fact</TableID>
+                    <ColumnID>Donation_date</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="fc3b2ffe-d8a8-487e-83d2-88627491d991">
+      <ID>Money Fact</ID>
+      <Name>Money Fact</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="31a32dd0-2ef1-4dda-82bb-bd417e680b46">
+          <ID>USD</ID>
+          <Name>USD</Name>
+          <Source dwd:design-time-name="5010666a-b9ff-42b3-9567-320fe68b8bfa">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="05213454-11f4-44ec-8fef-7a35f192f2e7">
+              <TableID>dbo_Money_fact</TableID>
+              <ColumnID>USD</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="85055735-6dfb-4dc1-87fc-98a1792f0f84">
+          <ID>Money Fact Count</ID>
+          <Name>Money Fact Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="3665c314-dd76-4e21-81ca-ad183b026b62">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="37cb7986-7f36-4cee-8a27-938ebba4c714">
+              <TableID>dbo_Money_fact</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="04336b92-5a91-4dbc-80b7-18b8aa5fd64b">
+          <CubeDimensionID>Donor</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="e8c91708-ba69-4110-a12a-743cb8a286d1">
+              <AttributeID>Donor Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="8348358f-009b-44a4-8247-bc775fb1a284">
+                  <DataType>WChar</DataType>
+                  <DataSize>5</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="7925cb70-c2ba-450b-82cb-8e25ee53eaaf">
+                    <TableID>dbo_Money_fact</TableID>
+                    <ColumnID>Donor_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5890610c-8419-42c9-8767-5f4b375460c7">
+          <CubeDimensionID>Hospital</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="64efb761-0d5c-4e4f-bfa3-8b58c21968c7">
+              <AttributeID>Hospital Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="f773b53b-a782-4fa9-8737-ab49e8db29b0">
+                  <DataType>WChar</DataType>
+                  <DataSize>5</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e3893a3e-0e8d-4c6c-b24d-d0c23633a924">
+                    <TableID>dbo_Money_fact</TableID>
+                    <ColumnID>Hospital_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="20a84184-ad4c-4719-80f9-843fa1c1690c">
+          <CubeDimensionID>Staff</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="31a2858b-52ce-482a-a225-1de4bca79ab5">
+              <AttributeID>Staff Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="211f384c-71ef-4f2c-8b4c-269cd4d33792">
+                  <DataType>WChar</DataType>
+                  <DataSize>5</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b271113c-1bab-41b4-8507-9fade7c13f80">
+                    <TableID>dbo_Money_fact</TableID>
+                    <ColumnID>Staff_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f7785783-4d92-4fe1-ad8b-272369945192">
+          <CubeDimensionID>Time</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="2f34f336-7560-4934-9a2e-9241f81fdfd5">
+              <AttributeID>Date</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="e6414a0e-2e2b-4ddc-8f56-eecd68b796dc">
+                  <DataType>Date</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9a695155-91a2-49f5-a5a6-da36b47479b2">
+                    <TableID>dbo_Money_fact</TableID>
+                    <ColumnID>Money_donation_date</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="96ecaeb8-610a-4ff5-9a88-038f5d61d342">
+      <ID>Transfusion Fact</ID>
+      <Name>Transfusion Fact</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="4abc1644-8490-4823-98ad-fc256051cc95">
+          <ID>Quantity Mm - Transfusion Fact</ID>
+          <Name>Quantity Mm - Transfusion Fact</Name>
+          <Source dwd:design-time-name="b16a89b1-90ff-42ca-9c51-2712a8b94608">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="7de64beb-fae3-4d74-b440-80be2a4a9c8f">
+              <TableID>dbo_Transfusion_fact</TableID>
+              <ColumnID>Quantity_mm</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="94ad482d-dae4-43b8-aba8-927adbd951ba">
+          <ID>Transfusion Fact Count</ID>
+          <Name>Transfusion Fact Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="58d10151-bc8e-4336-bce1-0c4c03da8ca2">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="80649912-2363-4aa7-806d-1138a0b2a556">
+              <TableID>dbo_Transfusion_fact</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="db491f4d-125d-4c02-9507-3b6a6b05a363">
+          <CubeDimensionID>Recipient</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="342eac04-f287-4584-bed8-d8a980e558e5">
+              <AttributeID>Recipient Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="f203757b-0f61-403f-9b4e-76cee6ddc46a">
+                  <DataType>WChar</DataType>
+                  <DataSize>5</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="00e78682-cd65-4e20-87c7-ad936aadf1d4">
+                    <TableID>dbo_Transfusion_fact</TableID>
+                    <ColumnID>Recipient_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5f1c5b30-14b5-4c40-a3e6-348577de30e8">
+          <CubeDimensionID>Hospital</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="027085be-bf01-4983-aa53-7ed5fb8a3c5d">
+              <AttributeID>Hospital Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="862c69ce-59f7-49ac-a152-b35c39805e36">
+                  <DataType>WChar</DataType>
+                  <DataSize>5</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="97edfff5-5af1-4b3d-bd0f-94ca9520cacb">
+                    <TableID>dbo_Transfusion_fact</TableID>
+                    <ColumnID>Hospital_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="fa16e4f3-09f8-4626-b9ee-b66132d7323d">
+          <CubeDimensionID>Staff</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="dc86b60a-d0d7-4f7a-b636-86fadf3892f3">
+              <AttributeID>Staff Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="46da0e42-6d71-484d-b6a2-3bdf628beb21">
+                  <DataType>WChar</DataType>
+                  <DataSize>5</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="62a1e3e8-4c18-4c53-97eb-9c5af19ef975">
+                    <TableID>dbo_Transfusion_fact</TableID>
+                    <ColumnID>Staff_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="63924ba3-7057-4107-bf41-25587f1528e9">
+          <CubeDimensionID>Time</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="1660fe34-7171-4a74-bd16-19768b24dcec">
+              <AttributeID>Date</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="a62b5b38-70c5-4879-aee3-caac56f0cd7e">
+                  <DataType>Date</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="09685f7f-c124-4e3a-b4ef-39c247f8dac2">
+                    <TableID>dbo_Transfusion_fact</TableID>
+                    <ColumnID>Transfusion_date</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="31e0d03e-b537-432d-8dc3-c16ed90c972f">
+    <DataSourceViewID>DWH</DataSourceViewID>
+  </Source>
+</Cube>

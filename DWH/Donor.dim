@@ -1,0 +1,205 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="edd1d3a5-7e5d-4366-a3d6-aa81c529b330" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Donor</ID>
+  <Name>Donor</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="e730ab87-3ba7-4b68-b1a0-0b25a78e98f7">
+    <DataSourceViewID>DWH</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="1cce13fb-347b-4d7e-bb7d-ac6802dd675d">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="f674ca95-301c-4f41-9735-6e3989b04d24">
+      <ID>Donor Id</ID>
+      <Name>Donor Id</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b86d6690-a595-4614-99a8-8b7ec1da80b6">
+          <DataType>WChar</DataType>
+          <DataSize>5</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="51b2561e-9d2b-4c3c-beeb-ddeb155a670f">
+            <TableID>dbo_Donor</TableID>
+            <ColumnID>Donor_id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="48d4832a-00f2-4ecf-97a0-c016282b7ab7">
+          <AttributeID>Donor First Name</AttributeID>
+          <Name>Donor First Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="eeb96188-ab37-4350-a866-f95216cfdc23">
+          <AttributeID>Donor Last Name</AttributeID>
+          <Name>Donor Last Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="99b95292-b7de-4648-9c06-74edb5f75bb3">
+          <AttributeID>Donor Age</AttributeID>
+          <Name>Donor Age</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="07bd25af-aa79-48da-9217-90d60e2ee411">
+          <AttributeID>Donor Gender</AttributeID>
+          <Name>Donor Gender</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b78acfd9-0188-4c5d-98c0-d16c0847fbb7">
+          <AttributeID>Blood Id</AttributeID>
+          <Name>Blood Id</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="6c2e3ce7-3650-4c80-9340-ae5684f893b9">
+      <ID>Donor First Name</ID>
+      <Name>Donor First Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c0465f25-76f1-4cc6-af5a-305dc7911dbd">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6154c164-2b60-4d8b-90db-10bf3504de37">
+            <TableID>dbo_Donor</TableID>
+            <ColumnID>Donor_first_name</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8c4e9421-ac38-43a8-a832-592bf42d2b3d">
+      <ID>Donor Last Name</ID>
+      <Name>Donor Last Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c4dbd3fc-7fe2-4916-a3c3-d139ac3bcf25">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4c6cbc8e-c73d-46e0-a1e1-e7919016990a">
+            <TableID>dbo_Donor</TableID>
+            <ColumnID>Donor_last_name</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4e52a31f-ae44-40d2-bf0a-d5cff866f091">
+      <ID>Donor Age</ID>
+      <Name>Donor Age</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="407d7238-69cc-4987-bd6c-012359f7b834">
+          <DataType>WChar</DataType>
+          <DataSize>5</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9df085dc-3454-414c-81dc-52ad49c93498">
+            <TableID>dbo_Donor</TableID>
+            <ColumnID>Donor_age</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="01c22cb1-ad88-4e13-954d-0d5d55032f92">
+      <ID>Donor Gender</ID>
+      <Name>Donor Gender</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1b0afebf-c950-4efe-8215-cffdd4bd9143">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3e24c2ab-20b1-42d6-9f0c-37ce02fd6b8a">
+            <TableID>dbo_Donor</TableID>
+            <ColumnID>Donor_gender</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="031a3568-b47b-4d7f-b480-c32a9f6e032f">
+      <ID>Blood Id</ID>
+      <Name>Blood Id</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b19ca0a4-a467-4280-8afd-0fa836d80abd">
+          <DataType>WChar</DataType>
+          <DataSize>5</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4e7368ca-716b-4d90-98a1-e611a20a0583">
+            <TableID>dbo_Blood</TableID>
+            <ColumnID>Blood_id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="d94a28c9-3dd0-4a14-98e0-963e1fc7adab">
+          <AttributeID>Blood Type</AttributeID>
+          <Name>Blood Type</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a3990379-ff5c-476b-9c2b-f13000b7265b">
+      <ID>Blood Type</ID>
+      <Name>Blood Type</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7844edd8-b818-49a9-bbde-5d966c4371b9">
+          <DataType>WChar</DataType>
+          <DataSize>5</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5d25f128-dbbc-43df-a05a-5aea5c5d29a1">
+            <TableID>dbo_Blood</TableID>
+            <ColumnID>Blood_type</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

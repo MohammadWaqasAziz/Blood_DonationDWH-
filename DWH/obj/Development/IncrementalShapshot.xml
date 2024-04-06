@@ -1,0 +1,110 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>DWH</Database>
+    <Server> DESKTOP-CJDDLNR\MSSQLSERVER2022</Server>
+    <ConnectionString>Data Source= DESKTOP-CJDDLNR\MSSQLSERVER2022;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>kSdWbADt7gLKZoluqmyieJZ60fw=1/29/2024 11:50:45 PM1/29/2024 11:50:45 PM</TimeStamp>
+        <ID>
+          <String>DWH</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>55wcm54i5Z9klWuaBrfDLdsFPNU=2/1/2024 6:24:26 AM1/29/2024 11:51:01 PM</TimeStamp>
+        <ID>
+          <String>DWH</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>1E2SvL2PwsIyf59CjaiXwFRnpp4=1/29/2024 11:53:32 PM1/29/2024 11:53:32 PM</TimeStamp>
+        <ID>
+          <String>Blood</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>8qlI+pSFjw24vqBIyaMDfyZiVjE=1/29/2024 11:53:42 PM1/29/2024 11:53:42 PM</TimeStamp>
+        <ID>
+          <String>City</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>oL36gQfiqEgodgaTgSzCQi+y4Gk=1/29/2024 11:53:57 PM1/29/2024 11:53:57 PM</TimeStamp>
+        <ID>
+          <String>Donor</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ljN8rCbK/Y/o2PIuI5XLQMUIV4k=1/29/2024 11:54:19 PM1/29/2024 11:54:19 PM</TimeStamp>
+        <ID>
+          <String>Hospital</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>GB2xzJJee+YcA/krJndRMlSn3+4=1/29/2024 11:54:41 PM1/29/2024 11:54:41 PM</TimeStamp>
+        <ID>
+          <String>Recipient</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>rzyXFu1rLV057PPOLbubQ6J9BYo=1/29/2024 11:54:51 PM1/29/2024 11:54:51 PM</TimeStamp>
+        <ID>
+          <String>Staff</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>HOp1Ei0Jfuuy72RpVbo7GT4uMX4=1/29/2024 11:55:05 PM1/29/2024 11:55:05 PM</TimeStamp>
+        <ID>
+          <String>Status</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>avSHDmV0Eded4VYYU0y6DI34gZE=2/1/2024 6:24:26 AM2/1/2024 6:21:15 AM</TimeStamp>
+        <ID>
+          <String>Time</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>WpSaTcKYTMBPzCaEYTm/5Hj1/ho=2/1/2024 6:28:37 AM2/1/2024 6:24:26 AMdwSFdq/22XNxJ8CePapUomClosc=2/1/2024 6:24:26 AM2/1/2024 6:24:26 AM</TimeStamp>
+        <ID>
+          <String>DWH</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>dEV5tVqpXFYU64fdnVcyTbLLcME=2/1/2024 6:22:21 AM1/29/2024 11:17:18 PM</TimeStamp>
+      <ID>
+        <String>DWH</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2024-02-01T06:32:05.376667Z</LastDeployed>
+</DeploymentSnapshot>
