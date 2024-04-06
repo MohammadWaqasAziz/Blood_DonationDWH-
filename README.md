@@ -1,5 +1,6 @@
 
-Blood Donation System Data Warehouse
+
+
 The Blood Donation System Data Warehouse project is designed to manage and analyze data related to blood donation and blood transfusion activities. This comprehensive system incorporates a galaxy schema design, featuring two fundamental fact tables: one for blood donation records and another for blood transfusion records.
 
 Key Features
